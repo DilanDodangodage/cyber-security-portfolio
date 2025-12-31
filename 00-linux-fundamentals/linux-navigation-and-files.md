@@ -2,22 +2,25 @@
 Linux Navigation and Files
 
 ### Objective
-Understand basic Linux navigation and file handling.
+The objective of this lab was to understand how to navigate through the system and how users interact with files and directories in Linux.
 
 ### Environment
-TryHackMe – controlled lab environment
+This activity was completed in a controlled lab environment using TryHackMe.
 
 ### What I Did
-Navigated the Linux filesystem and inspected files and directories.
+During this lab, I explored the Linux system hierarchy by moving through directories and inspecting files.
 
 ### How I Did It
-Used commands such as ls, cd, pwd, cat, and find.
+I used basic Linux navigation and inspection commands without modifying the file system.
 
 ### What I Learned
-Linux systems rely heavily on structured file paths and permissions.
+From this lab, I learned that:
+- Linux systems organise files in a hierarchy
+- Files and directories have permissions
+- Access to files depends on the permissions
 
 ### Why This Matters
-Improper file access can lead to information disclosure or privilege escalation.
+If someone does not understand Linux navigation, it can lead to misconfiguration, which attackers may exploit to gain unauthorized access to the system.
 
 ### How to Fix
-Apply least privilege and restrict access to sensitive files.
+To reduce risk, systems should be configured to limit access to sensitive data and only allow authorized users to access it.
